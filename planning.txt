@@ -1,0 +1,24 @@
+### Step One
+
+**Planning**
+
+Before you start working on this, take a few minutes to think how you would approach building a search bar like this using HTML, CSS, and JavaScript. Jot down your thoughts on a piece of paper or a Google Doc. Don’t worry, no one else will see these notes.Ask yourself:
+
+- What HTML would you use for the search bar? How about the drop down, the search button, and the filler text which will appear on the page?
+  Have a form element that has an input of type search. This will have an event listener checking for keypress/keyup. The dropdown will be a list of all fruits. It will be hidden by deafult and as you type will populate with potential matches. See below for potential solution to this. There will be a button to commit to the search. Filler text will be something like "Enter a type of fruit".
+
+  You can also use the <datalist> tag to provide an "autocomplete" feature for <input> elements. As users input data, they will see a drop-down list of pre-defined options. The <datalist> element's id attribute must be equal to the <input> element's list attribute to bind them together. 
+
+
+- What CSS would you use to create the color gradient on the page?
+  Refer back to font demo for gradient reference.
+
+
+- What type of JavaScript event listeners would you need to add to refresh the drop-down as a user types?
+  addEventListener with keypress or possibly keyup for type
+  
+
+- How would you populate the search bar with an option from the drop down list? What event would trigger this action?
+
+
+- How would you structure your functions?
